@@ -1,6 +1,7 @@
 #!/usr/bin/node
 var faker = require('faker');
 var dateFormat = require('dateformat');
+var fs = require('fs');
 
 //for dicom SOP, Modality, see http://www.dicomlibrary.com/dicom/
 //to generate brand new series (with a single instance), just run this without any argument (use default template)
@@ -16,7 +17,8 @@ function genuid() {
     return faker.random.uuid();
 }
 
-var headers = require(template_json);
+var headers_raw = fs.readFileSync(template_json);
+var headers = JSON.parse(headers_raw.toString());
 
 //fall through each section to modify more / less attributes
 switch(mode) {
