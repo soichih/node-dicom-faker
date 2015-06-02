@@ -7,9 +7,7 @@
     "test": "mocha"
   },
   "bin": {
-    "dicom-faker": {
-        "dicom-faker": "generate.js"
-    }
+    "dicom-faker": "./generate.js"
   },
   "repository": {
     "type": "git",
