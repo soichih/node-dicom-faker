@@ -10,7 +10,7 @@ var fs = require('fs');
 //console.log(faker.name.findName());
 
 var mode = process.argv[2]||"patient";
-var template_json = process.argv[3]||"./template.json";
+var template_json = process.argv[3]||__dirname+"/template.json";
 
 function genuid() {
     //TODO - let's just use uuid for now..
