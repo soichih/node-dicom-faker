@@ -21,7 +21,7 @@ var headers = require(template_json);
 //fall through each section to modify more / less attributes
 switch(mode) {
 case "patient":
-    headers.PatientName = faker.name.findName(); 
+    headers.PatientName = { "Alphabetic": faker.name.findName() };
     headers.PatientID = faker.random.number(99999999);
     var bday = faker.date.past(80);
     headers.PatientBirthDate = dateFormat(bday, "yyyymmdd");
