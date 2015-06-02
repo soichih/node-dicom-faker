@@ -36,9 +36,9 @@ case "patient":
 case "study":
     headers.StudyID = faker.random.number(9999);
     headers.StudyInstanceUID = genuid();
-    var studydate = faker.date.past(10);
-    headers.StudyDate = dateFormat(bday, "yyyymmdd");
-    headers.StudyTime = dateFormat(bday, "hhMMss.l000");
+    var studydate = faker.date.past(5);
+    headers.StudyDate = dateFormat(studydate, "yyyymmdd");
+    headers.StudyTime = dateFormat(studydate, "hhMMss.l000");
     headers.StudyDescription = faker.company.bsAdjective()+" "+faker.company.companyName();
     
     //init series
@@ -46,9 +46,9 @@ case "study":
 case "series":
     headers.SeriesNumber = faker.random.number(9999);
     headers.SeriesInstanceUID = genuid();
-    var seriesdate = faker.date.past(10);
-    headers.SeriesDate = dateFormat(bday, "yyyymmdd");
-    headers.SeriesTime = dateFormat(bday, "hhMMss.l000");
+    var seriesdate = faker.date.past(3);
+    headers.SeriesDate = dateFormat(seriesdate, "yyyymmdd");
+    headers.SeriesTime = dateFormat(seriesdate, "hhMMss.l000");
     headers.SeriesDescription = headers.StudyDescription +" / "+faker.company.catchPhrase();
     
     //init instance
@@ -60,6 +60,9 @@ case "instance":
     headers.MediaStorageSOPInstanceUID = faker.random.uuid(); 
     headers.SOPInstanceUID = headers.MediaStorageSOPInstanceUID;
     headers.InstanceNumber+=1;
+    var instdate = faker.date.past(3);
+    headers.InstanceCreationDate = dateFormat(instdate, "yyyymmdd");
+    headers.InstanceCreationTime = dateFormat(instdate, "hhMMss.l000");
     headers.ImageIndex = headers.InstanceNumber;
     headers.SliceLocation+=1 + Math.random()/10;
     headers.LargestImagePixelValue = -faker.random.number(10);
