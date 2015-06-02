@@ -1,0 +1,296 @@
+{
+  "FileMetaInformationGroupLength": 202,
+  "MediaStorageSOPClassUID": "1.2.840.10008.5.1.4.1.1.128",
+  "MediaStorageSOPInstanceUID": "1.3.12.2.1107.5.1.4.11035.30000013071018044109100001374",
+  "TransferSyntaxUID": "1.2.840.10008.1.2",
+  "ImplementationClassUID": "1.2.826.0.1.3680043.2.135.1066.101",
+  "ImplementationVersionName": "1.4.16/OTHER",
+  "SpecificCharacterSet": "ISO_IR 100",
+  "ImageType": "ORIGINAL",
+  "SOPClassUID": "1.2.840.10008.5.1.4.1.1.128",
+  "SOPInstanceUID": "1.3.12.2.1107.5.1.4.11035.30000013071018044109100001374",
+  "StudyDate": "20130710",
+  "SeriesDate": "20130710",
+  "AcquisitionDate": "20130710",
+  "ContentDate": "20130710",
+  "StudyTime": "145256.450000",
+  "SeriesTime": "150726.000000",
+  "AcquisitionTime": "152733.000006",
+  "ContentTime": "155127.000000",
+  "Modality": "PT",
+  "Manufacturer": "SIEMENS",
+  "InstitutionName": "Indiana University ",
+  "InstitutionAddress": "Indianapolis 46202 16th St 355",
+  "StationName": "CT71271",
+  "StudyDescription": "PET^MM_302 (Adult)",
+  "SeriesDescription": "PET WB_un2i8s-OSEM",
+  "InstitutionalDepartmentName": "Department",
+  "ManufacturerModelName": "SOMATOM Definition AS_mCT",
+  "PatientName": {
+    "Alphabetic": "Cu-64 PHANTOM^2013-00228"
+  },
+  "PatientID": "07102013",
+  "PatientBirthDate": "19690101",
+  "PatientSex": "M",
+  "PatientAge": "044Y",
+  "PatientWeight": 6.8,
+  "SliceThickness": 2.027,
+  "DeviceSerialNumber": "11035",
+  "SoftwareVersions": "syngo MI.PET/CT 2012A",
+  "CollimatorType": "NONE",
+  "DateOfLastCalibration": "20130710",
+  "TimeOfLastCalibration": "073952.000000",
+  "ConvolutionKernel": "XYZ Gauss5.00",
+  "ActualFrameDuration": 1200000,
+  "PatientPosition": "HFS",
+  "StudyInstanceUID": "1.3.12.2.1107.5.1.4.11035.30000013071013072823000000025",
+  "SeriesInstanceUID": "1.3.12.2.1107.5.1.4.11035.30000013071018044109100001204",
+  "StudyID": "2",
+  "SeriesNumber": 7,
+  "AcquisitionNumber": 2002,
+  "InstanceNumber": 170,
+  "ImagePositionPatient": -405.659,
+  "ImageOrientationPatient": 1,
+  "FrameOfReferenceUID": "1.3.12.2.1107.5.1.4.11035.30000013071013080424300000023",
+  "SliceLocation": -1162.05,
+  "SamplesPerPixel": 1,
+  "PhotometricInterpretation": "MONOCHROME2",
+  "Rows": 128,
+  "Columns": 128,
+  "PixelSpacing": 6.3638,
+  "CorrectedImage": "NORM",
+  "BitsAllocated": 16,
+  "BitsStored": 16,
+  "HighBit": 15,
+  "LargestImagePixelValue": -2,
+  "WindowCenter": 174,
+  "WindowWidth": 347,
+  "RescaleSlope": 0.00530576,
+  "RescaleType": "PROPCPS",
+  "RequestedProcedureDescription": "PET MM_302 (Adult)",
+  "PerformedProcedureStepStartDate": "20130710",
+  "PerformedProcedureStepStartTime": "154813.216000",
+  "PerformedProcedureStepID": "CT201307101452-1",
+  "PerformedProcedureStepDescription": "PET^MM_302 (Adult)",
+  "EnergyWindowRangeSequence": {
+    "00540014": {
+      "vr": "DS",
+      "Value": [
+        435
+      ]
+    },
+    "00540015": {
+      "vr": "DS",
+      "Value": [
+        650
+      ]
+    }
+  },
+  "RadiopharmaceuticalInformationSequence": {
+    "00180031": {
+      "vr": "LO",
+      "Value": [
+        "Solution"
+      ]
+    },
+    "00181072": {
+      "vr": "TM",
+      "Value": [
+        "150001.000000"
+      ]
+    },
+    "00181074": {
+      "vr": "DS",
+      "Value": [
+        59200000
+      ]
+    },
+    "00181075": {
+      "vr": "DS",
+      "Value": [
+        45720
+      ]
+    },
+    "00181076": {
+      "vr": "DS",
+      "Value": [
+        0.179
+      ]
+    },
+    "00540300": {
+      "vr": "SQ",
+      "Value": [
+        {
+          "00080100": {
+            "vr": "SH",
+            "Value": [
+              "C-127A2"
+            ]
+          },
+          "00080102": {
+            "vr": "SH",
+            "Value": [
+              "SRT"
+            ]
+          },
+          "00080104": {
+            "vr": "LO",
+            "Value": [
+              "^64^Copper"
+            ]
+          },
+          "00080105": {
+            "vr": "CS",
+            "Value": [
+              "DCMR"
+            ]
+          },
+          "00080106": {
+            "vr": "DT",
+            "Value": [
+              "20070625000000.000000"
+            ]
+          },
+          "0008010F": {
+            "vr": "CS",
+            "Value": [
+              "4020"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "NumberOfSlices": 171,
+  "PatientOrientationCodeSequence": {
+    "00080100": {
+      "vr": "SH",
+      "Value": [
+        "F-10450"
+      ]
+    },
+    "00080102": {
+      "vr": "SH",
+      "Value": [
+        "99SDM"
+      ]
+    },
+    "00080104": {
+      "vr": "LO",
+      "Value": [
+        "recumbent"
+      ]
+    },
+    "00080105": {
+      "vr": "CS",
+      "Value": [
+        "DCMR"
+      ]
+    },
+    "00080106": {
+      "vr": "DT",
+      "Value": [
+        "20020904000000.000000"
+      ]
+    },
+    "0008010F": {
+      "vr": "CS",
+      "Value": [
+        "19"
+      ]
+    },
+    "00540412": {
+      "vr": "SQ",
+      "Value": [
+        {
+          "00080100": {
+            "vr": "SH",
+            "Value": [
+              "F-10340"
+            ]
+          },
+          "00080102": {
+            "vr": "SH",
+            "Value": [
+              "99SDM"
+            ]
+          },
+          "00080104": {
+            "vr": "LO",
+            "Value": [
+              "supine"
+            ]
+          },
+          "00080105": {
+            "vr": "CS",
+            "Value": [
+              "DCMR"
+            ]
+          },
+          "00080106": {
+            "vr": "DT",
+            "Value": [
+              "20020904000000.000000"
+            ]
+          },
+          "0008010F": {
+            "vr": "CS",
+            "Value": [
+              "20"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "PatientGantryRelationshipCodeSequence": {
+    "00080100": {
+      "vr": "SH",
+      "Value": [
+        "F-10470"
+      ]
+    },
+    "00080102": {
+      "vr": "SH",
+      "Value": [
+        "99SDM"
+      ]
+    },
+    "00080104": {
+      "vr": "LO",
+      "Value": [
+        "headfirst"
+      ]
+    },
+    "00080105": {
+      "vr": "CS",
+      "Value": [
+        "DCMR"
+      ]
+    },
+    "00080106": {
+      "vr": "DT",
+      "Value": [
+        "20020904000000.000000"
+      ]
+    },
+    "0008010F": {
+      "vr": "CS",
+      "Value": [
+        "21"
+      ]
+    }
+  },
+  "SeriesType": "WHOLE BODY",
+  "Units": "PROPCPS",
+  "CountsSource": "EMISSION",
+  "RandomsCorrectionMethod": "DLYD",
+  "DecayCorrection": "START",
+  "ReconstructionMethod": "OSEM3D 2i8s",
+  "AxialAcceptance": 49,
+  "AxialMash": 5,
+  "FrameReferenceTime": 1806090.3605396,
+  "DecayFactor": 1.02776,
+  "DoseCalibrationFactor": 164738000,
+  "ImageIndex": 170
+}

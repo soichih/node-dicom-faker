@@ -1,0 +1,26 @@
+{
+  "name": "dicom-faker",
+  "version": "0.0.0",
+  "description": "A simple command to generate a randon dicom header",
+  "main": "generate.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:soichih/node-dicom-header-generator.git"
+  },
+  "keywords": [
+    "dicom",
+    "generator"
+  ],
+  "author": "Soichi Hayashi <hayashis@iu.edu>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/soichih/node-dicom-header-generator/issues"
+  },
+  "dependencies": {
+    "faker": "~2.1.3",
+    "dateformat": "~1.0.11"
+  }
+}
