@@ -1,7 +1,7 @@
 {
   "name": "dicom-faker",
-  "version": "0.0.0",
-  "description": "A simple command to generate a randon dicom header",
+  "version": "0.0.1",
+  "description": "A simple command to generate randon dicom headers (json)",
   "main": "generate.js",
   "scripts": {
     "test": "mocha"

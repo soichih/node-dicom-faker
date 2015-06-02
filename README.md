@@ -12,6 +12,7 @@ Right this, this is super basic.. it only randomizes following fields
 * WindowWidth
 * RescaleSlope
 * LargestImagePixelValue
+* (A few others..)
 
 In the future, I want to be able to specify modality, or Manufacturer and generate more realistic data. (Help welcomed - especially sample headers!)
 

@@ -1,3 +1,4 @@
+#!/usr/bin/node
 var faker = require('faker');
 var dateFormat = require('dateformat');
 
