@@ -7,8 +7,8 @@ var dateFormat = require('dateformat');
 //./generate.js <template.json> patient|study|series|instance
 //console.log(faker.name.findName());
 
-var template_json = process.argv[2]||"./template.json";
-var mode = process.argv[3]||"patient";
+var mode = process.argv[2]||"patient";
+var template_json = process.argv[3]||"./template.json";
 
 function genuid() {
     //TODO - let's just use uuid for now..

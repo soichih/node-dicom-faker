@@ -13,7 +13,7 @@ Right this, this is super basic.. it only randomizes following fields
 * RescaleSlope
 * LargestImagePixelValue
 
-In the future, it will allow you to specify modality, or Manufacturer and generate more realistic data.
+In the future, I want to be able to specify modality, or Manufacturer and generate more realistic data. (Help welcomed - especially sample headers!)
 
 ## Installation
 

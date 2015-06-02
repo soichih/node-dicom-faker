@@ -27,13 +27,13 @@
   "InstitutionalDepartmentName": "Department",
   "ManufacturerModelName": "SOMATOM Definition AS_mCT",
   "PatientName": {
-    "Alphabetic": "Cu-64 PHANTOM^2013-00228"
+    "Alphabetic": "Soichi PHANTOM^2013-00228"
   },
-  "PatientID": "07102013",
-  "PatientBirthDate": "19690101",
+  "PatientID": "01012014",
+  "PatientBirthDate": "19700101",
   "PatientSex": "M",
-  "PatientAge": "044Y",
-  "PatientWeight": 6.8,
+  "PatientAge": "055Y",
+  "PatientWeight": 126.8,
   "SliceThickness": 2.027,
   "DeviceSerialNumber": "11035",
   "SoftwareVersions": "syngo MI.PET/CT 2012A",

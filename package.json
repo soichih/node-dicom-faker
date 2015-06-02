@@ -6,6 +6,11 @@
   "scripts": {
     "test": "mocha"
   },
+  "bin": {
+    "dicom-faker": {
+        "dicom-faker": "generate.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:soichih/node-dicom-header-generator.git"
