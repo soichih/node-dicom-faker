@@ -3,7 +3,7 @@
 
 Generates random dicom headers.
 
-Right this, this is super basic.. it only randomizes following fields
+Right now, this is super basic.. it only randomizes following fields
 
 * Various UID (SOPInstanceUID, SeriesInstanceUID, StudyInstanceUID, etc..)
 * Various Patient information (name, sex, weight, etc..)
