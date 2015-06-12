@@ -14,9 +14,9 @@ Right now, this is super basic.. it only randomizes following fields
 * LargestImagePixelValue
 * (A few others..)
 
-In the future, I want to be able to specify modality, or Manufacturer and generate more realistic data (Help welcomed - especially sample headers!)
+In the future, I want to be able to specify modality, or manufacturer, etc.. and generate more realistic data (help welcomed - especially sample headers!)
 
-Another major todo is that, it currently uses uuid for various dicom IDs generated. I need to come up with some library that can parse / generate dicom UIDs. If you know how to do this, please let me know also.
+Another major TODO is that, this module current uses UUID for various dicom IDs generated. I need to come up with some library that can parse / generate dicom UIDs. If you know how to do this, please let me know also.
 
 ## Installation
 
